@@ -10,7 +10,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>atlassian-plugin</packaging>
 
-    <name>atlassian-plugin-test-console-enabler</name>
+    <name>${project.groupId}:${project.artifactId}</name>
     <description>This Atlassian JIRA plugin provides backward compatibility with the FastDev plugin test console.</description>
     <url>https://github.com/zuhlke/atlassian-plugin-test-console-enabler</url>
     <licenses>
@@ -21,16 +21,19 @@
     </licenses>
     <organization>
         <name>Zuhlke Engineering Ltd.</name>
-        <url>http://www.zuhlke.co.uk/</url>
+        <url>https://www.zuehlke.com/gb/en/</url>
     </organization>
     <developers>
         <developer>
             <name>Immo Hüneke</name>
             <email>immo.huneke@zuhlke.com</email>
+            <organization>Zuhlke Engineering Ltd.</organization>
+            <organizationUrl>https://www.zuehlke.com/gb/en/</organizationUrl>
         </developer>
     </developers>
     <scm>
         <connection>scm:git:https://github.com/zuhlke/atlassian-plugin-test-console-enabler.git</connection>
+        <developerConnection>scm:git:https://github.com/zuhlke/atlassian-plugin-test-console-enabler.git</developerConnection>
         <url>https://github.com/zuhlke/atlassian-plugin-test-console-enabler</url>
         <tag>HEAD</tag>
     </scm>
