@@ -5,7 +5,7 @@
 
     <groupId>com.zuhlke.testing</groupId>
     <artifactId>atlassian-plugin-test-console-enabler</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
     <packaging>atlassian-plugin</packaging>
 
     <name>${project.groupId}:${project.artifactId}</name>
@@ -34,7 +34,7 @@
         <connection>scm:git:https://github.com/zuhlke/atlassian-plugin-test-console-enabler.git</connection>
         <developerConnection>scm:git:https://github.com/zuhlke/atlassian-plugin-test-console-enabler.git</developerConnection>
         <url>https://github.com/zuhlke/atlassian-plugin-test-console-enabler</url>
-        <tag>atlassian-plugin-test-console-enabler-1.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
     <distributionManagement>
         <snapshotRepository>
