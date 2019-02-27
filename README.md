@@ -19,6 +19,24 @@ execute the tests as requested.
 To open the console, start the server with `atlas-debug` and point your 
 browser at [http://localhost:2990/jira/plugins/servlet/it-test-console](http://localhost:2990/jira/plugins/servlet/it-test-console).
 
+## Installation
+
+Just add the following to the `maven-jira-plugin` section of your plugin project's POM:
+```
+ <pluginArtifact>
+   <groupId>com.zuhlke.testing</groupId>
+   <artifactId>atlassian-plugin-test-console-enabler</artifactId>
+   <version>1.0.1</version>
+ </pluginArtifact>
+```
+If you try to run unit tests from the console, they will fail. Use for the wired tests only.
+
+## Source Code and Help
+
+You can see the source code at https://github.com/zuhlke/atlassian-plugin-test-console-enabler
+and my example plugin, which uses this, is stored under https://github.com/zuhlke/example-jira-plugin.
+A tutorial that explains how this was developed is published under https://www.zuehlke.com/blog/en/?p=25203.
+
 ## Atlassian Plugin Information
 
 Here are the SDK commands that can be used in this plugin's home folder:
